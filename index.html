@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="assets/css/animate.css">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -58,7 +58,9 @@
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 centered">
 					<img src="assets/img/user.png" alt="Shuvo">
-					<h1>Hi, I am Shuvo!</h1>
+						<div class="bounceInLeft animated">
+						<h1>Hi, I am Shuvo!</h1>
+						</div>
 					<p>Hello everybody. I'm Shuvo, a web developer</p>
 					
 				
@@ -116,7 +118,7 @@
 					</p>
 				</div><!-- /col-lg-4 -->
 				
-				<div class="col-lg-4">
+				<div class="col-lg-4 wow bounceInUp">
 					<h4>My Links</h4>
 					<p>
 						<a href="https://www.facebook.com/mrityunjoydas.shuvo">Facebook</a><br/>
@@ -139,6 +141,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+	
     <script src="assets/js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
   </body>
 </html>

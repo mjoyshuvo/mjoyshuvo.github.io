@@ -1,0 +1,338 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+html, body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background: #F3F3F3;
+	color: #333;
+	font-family: Arial;
+}
+header h1 span{
+	color: #fff;
+}
+header h1 strong{
+	color: #F4E800;
+}
+#top_header{
+	width:100%;
+	
+	height: 250px;
+	
+}
+#top_header h1 {
+	color: #F7FAF9;
+	padding-top:10px;
+}
+header{
+	width: 100%;
+	margin:0;
+	background: #007E45;
+	padding-top: 46px;
+	margin-right:20px;
+}
+header h1{
+	font-size: 40px;
+	font-style: italic;
+	margin:0;
+	padding-top:10px;
+	padding-left:120px;
+	padding-bottom:24px;
+}
+
+.logo{
+	margin:2px;
+}
+.navbar-brand logo{
+	float:left
+}
+.navbar-brand logo{}
+
+nav{
+	margin-top:10px;
+	background: #FFCC00;
+	color: #25883A;
+}
+nav ul{
+	overflow: hidden;
+	
+	padding:0 0 0 307px;
+	list-style: none;
+}
+nav ul li{
+	
+	float: left;
+	padding:10px 5px 10px 5px;
+	text-align: center;
+	
+}
+nav ul li:hover{
+	background: #EDBC00;
+	text-decoration: none;
+}
+nav ul li a{
+	color: #25883A;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	text-decoration: none;
+}
+/*Content*/
+.content{
+	overflow:hidden;
+	background-color: #FFFFFF;
+	width:980px;
+	margin:-58px 185px -11px 185px;
+	padding:10px;
+	}
+
+.news section{
+	float:left;
+	width: 42%;
+	margin-bottom:60px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+	
+}
+.news section h3{
+	padding-top:24px;
+	padding-bottom:22px;
+}
+.read_more {
+    float: left;
+}
+.read_more {
+    background: #ffce00;
+    padding: 5px 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4e4e4e;
+    font-family: Helvetica, Arial, sans-serif;
+
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.read_more:hover{
+	background:#007E45 ;
+	color:white;
+}
+.read_more a:hover{
+	color:white;
+}
+.social {
+    float: right;
+    padding-left: 0px;
+}
+ul {
+    list-style: none outside;
+}
+ul, ol {
+    margin-bottom: 20px;
+}
+ol, ul {
+    list-style: none;
+}
+.news section h3{
+	margin:0;
+	color:#148853;
+}
+.news aside{
+	float:right;
+	width: 58%;
+	background:#FFFFFF;
+	margin-bottom:1px;
+}
+.news aside h2{
+	margin: 0;
+}
+.sideNewsImg1{
+	float:left;
+	padding:10px;
+}
+.sideNewsImg1 img{
+	display:block;
+}
+.sideNews1{
+	margin-left:174px;
+	padding:10px;
+}
+.sideNews1 h4{
+	color:#007E45;
+}
+.sideNewsImg2{
+	float:left;
+	padding:10px;
+}
+.sideNewsImg2 img{
+	
+	display:block;
+}
+.sideNews2{
+	margin-left:174px;
+	padding:10px;
+}
+.sideNews2 h4{
+	color:#007E45;
+}
+.sideNewsImg3{
+	float:left;
+	padding:10px;
+}
+.sideNewsImg3 img{
+	display:block;
+}
+.sideNews3{
+	margin-left:174px;
+	padding:10px;
+}
+.sideNews3 h4{
+	color:#007E45;
+}
+.section_link {
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    color: #565656;
+    padding-left: 10px;
+}
+.video{
+	margin-top:10px;
+}
+.mainVideo h3{
+	color:#037F47;
+}
+
+.mainVideo{
+	float:left;
+	width: 290px;
+	margin:0;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+.sideVideo{
+	float:left;
+	overflow:hidden;
+	width:385px;
+	display:block;
+}
+.sideVideo1{
+	float:left;
+	padding:5px;
+	
+}
+.sideVideoNews1 h5{
+	color:#007E45;
+}
+.sideVideoNews1{
+	float:right;
+	padding:5px;
+}
+
+.sideVideo2{
+	float:left;
+	padding:0 5px 5px 5px;
+	
+}
+.sideVideoNews2 h5{
+	color:#007E45;
+}
+.sideVideoNews2{
+	float:right;
+	padding:5px;
+	display:block;
+}
+.sideVideo3{
+	float:left;
+	padding:5px;
+	
+}
+.sideVideoNews3 h5{
+	color:#007E45;
+}
+.sideVideoNews3{
+	float:right;
+	padding:10px;
+}
+.tweet{
+	float:right;
+	
+}
+/*Footer*/
+.footer_wrap{
+	overflow:hidden;
+	background-color: #007E45;
+	font-family: Arial;
+}
+.footerContent{
+	width:1080px;
+
+	padding-left:186px;
+}
+.footerContent a{
+	color:white;
+	font-weight: 200%;
+}
+.footerContent a:hover{
+	color:#F6CA02;
+}
+.footer_wrap h3{
+	color:#FFCC00;
+ font-family:Arial;
+  font-weight:100;
+}
+.footer_wrap h4{
+	color:#FFCC00;
+ 	font-family:Arial;
+  	font-weight:100;
+}
+.footer_wrap ul{
+	overflow: hidden;
+	padding:0;
+	list-style: none;
+}
+.footer_wrao ul li a{
+	color: #333;
+	text-decoration:none;
+}
+.Fixtures{
+	dislplay:block;
+	width:20%;
+	float:left;
+	padding:10px;
+}
+.Competitions{
+	dislplay:block;
+	width:20%;
+	float:left;
+	padding:10px;
+}
+.SquadProfiles{
+	dislplay:block;
+	width:20%;
+	float:left;
+	padding:10px;
+	
+}
+.SquadProfiles a{
+	color:white;
+}
+.More{
+	dislplay:block;
+	width:20%;
+	float:left;
+	padding:10px;
+}
+.About{
+	dislplay:block;
+	width:20%;
+	float:left;
+	padding:10px;
+}

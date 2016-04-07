@@ -1,10 +1,10 @@
 * { margin: 0; padding: 0; }
- 
+
 
 #page-wrap { 
-	width: 600px; 
-	margin: 50px auto; 
-	padding: 10px; 
+	width: 600px;
+	float: left;
+	margin: 50px 360px;
 	background: white; 
 	-moz-box-shadow: 0 0 20px black; 
 	-webkit-box-shadow: 0 0 20px black; 
@@ -19,4 +19,142 @@ p {
 	margin-left: auto;
     margin-right: auto;
 	text-align: center;
+}
+/*==============Ribbon============*/
+.main-body{
+	width: 100%;
+}
+.heading{
+	height: 75px;
+	border-top: 2px solid #0d6d03;
+	border-bottom: 2px solid #0d6d03;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#quote{
+	text-align: center;
+	padding:40px;
+	font-style: italic;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#quote.p{
+	font-style: italic;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+h2{
+	text-align: center;
+	text-shadow: 2px 2px 8px green;
+}
+
+h3{
+	color: #0d6d03;
+	text-align: center;
+}
+
+.ribbon {
+ font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+ width: 98%;
+ 
+ position: relative;
+ background: #007709;
+ color: #fff;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #14730D;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: rgba(14, 64, 1, 0.89) transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+.some{
+	background-color: white;
+}
+/*================link===============*/
+a:link {
+	display: inline-flex;
+	font-style: italic;
+	font-size: 18px;
+	margin-right: 2px;
+	margin-left: 2px;
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+/* visited link */
+a:visited {
+    color:#FFFFCC ;
+    
+}
+
+/* mouse over link */
+a:hover {
+	
+    color: white ;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+
+/* selected link */
+a:active {
+    color:#006600 ;
+    text-decoration: none;
+}
+.form-padding{
+	padding: 20px;
+}
+.content-padding{
+	padding: 20px;
+}
+/*==================Nav======================*/
+#the_footer{
+	text-align: center;
+	padding:20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color:#14730D;
+	background: white;
+	text-shadow:2px 2px 8px green;
+	 
+
 }

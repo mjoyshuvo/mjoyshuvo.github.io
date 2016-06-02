@@ -1,0 +1,41 @@
+<html>
+<head>
+
+<script>
+	  function change(i,j) {
+	   if(j==1 || j==2 ||j==3 ||j==4 ||j==5 ||j==6 ||j==7 ||j==8 ||j==9 ||j==10)
+       document.getElementById("imgMain"+j+"").src="Selected/"+i+".png";
+	 }
+	  function hover(i,j) {
+	   if(j==1 || j==2 ||j==3 ||j==4 ||j==5 ||j==6 ||j==7 ||j==8 ||j==9 ||j==10)
+       document.getElementById("imgMain"+j+"").src="Hover/"+i+".png";
+	 }
+</script>
+<style>
+  .main {
+   margin : 0 auto;
+   width : 600px;
+   height : 1000px;
+   margin-top: 150px;
+  }
+</style>
+</head>
+   <body style="background-color:#282828">
+      <div class="main" >
+  <div class="c1"> 
+	  <img src="Normal/1.png" onclick="change(1,1)" onmouseover="hover(1,1)" id="imgMain1" height="100px" width="100px">
+	  <img src="Normal/2.png" onclick="change(2,2)" onmouseover="hover(2,2)" id="imgMain2" height="100px" width="100px">
+	  <img src="Normal/3.png" onclick="change(3,3)" onmouseover="hover(3,3)" id="imgMain3" height="100px" width="100px">
+	  <img src="Normal/4.png" onclick="change(4,4)" onmouseover="hover(4,4)" id="imgMain4" height="100px" width="100px">
+	  <img src="Disabled/5.png"  height="100px" width="100px"> 
+  </div>
+	 <div clas="c2">
+      <img src="Normal/6.png" onclick="change(6,6)" onmouseover="hover(6,6)" id="imgMain6" height="100px" width="100px">
+	  <img src="Normal/7.png" onclick="change(7,7)" onmouseover="hover(7,7)" id="imgMain7" height="100px" width="100px">
+	  <img src="Normal/8.png" onclick="change(8,8)" onmouseover="hover(8,8)" id="imgMain8" height="100px" width="100px">
+	  <img src="Normal/9.png" onclick="change(9,9)" onmouseover="hover(9,9)" id="imgMain9" height="100px" width="100px">
+	  <img src="Disabled/10.png"  id="imgMain10" height="100px" width="100px"> 
+	 </div>
+	 </div>
+   </body>
+</html>   

@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>CSSandJavaScript</title>
+<script>
+    function change(i,j) {
+	   if(j==1)
+       document.getElementById("imgMain1").src="Selected/"+i+".png";
+	   if(j==2)
+       document.getElementById("imgMain2").src="Selected/"+i+".png";
+	   if(j==3)
+       document.getElementById("imgMain3").src="Selected/"+i+".png";
+	   if(j==4)
+       document.getElementById("imgMain4").src="Selected/"+i+".png";
+	   if(j==5)
+       document.getElementById("imgMain5").src="Selected/"+i+".png";
+	   if(j==6)
+       document.getElementById("imgMain6").src="Selected/"+i+".png";
+	   if(j==7)
+       document.getElementById("imgMain7").src="Selected/"+i+".png";
+	   if(j==8)
+       document.getElementById("imgMain8").src="Selected/"+i+".png";
+	   if(j==9)
+       document.getElementById("imgMain9").src="Selected/"+i+".png";
+	   if(j==10)
+       document.getElementById("imgMain10").src="Selected/"+i+".png";
+	 }
+	 
+	  function hover(i,j) {
+	   if(j==1)
+       document.getElementById("imgMain1").src="Hover/"+i+".png";
+	   if(j==2)
+       document.getElementById("imgMain2").src="Hover/"+i+".png";
+	   if(j==3)
+       document.getElementById("imgMain3").src="Hover/"+i+".png";
+	   if(j==4)
+       document.getElementById("imgMain4").src="Hover/"+i+".png";
+	   if(j==5)
+       document.getElementById("imgMain5").src="Hover/"+i+".png";
+	   if(j==6)
+       document.getElementById("imgMain6").src="Hover/"+i+".png";
+	   if(j==7)
+       document.getElementById("imgMain7").src="Hover/"+i+".png";
+	   if(j==8)
+       document.getElementById("imgMain8").src="Hover/"+i+".png";
+	   if(j==9)
+       document.getElementById("imgMain9").src="Hover/"+i+".png";
+	   if(j==10)
+       document.getElementById("imgMain10").src="Hover/"+i+".png";
+	 }
+</script>
+<style>
+  .main {
+   margin : 0 auto;
+   width : 150px;
+   height : 600px;
+  }
+  a:hover {
+  }
+</style>
+</head>
+   <body style="background-color: #282828">
+      <div class="main">
+      <div class="left">
+	  <img src="Normal/1.png" onclick="change(1,1)" onmouseover="hover(1,1)" id="imgMain1" height="90px" width="90px">
+	  <img src="Normal/2.png" onclick="change(2,2)" onmouseover="hover(2,2)" id="imgMain2" height="90px" width="90px">
+	  <img src="Normal/3.png" onclick="change(3,3)" onmouseover="hover(3,3)" id="imgMain3" height="90px" width="90px">
+	  <img src="Normal/4.png" onclick="change(4,4)" onmouseover="hover(4,4)" id="imgMain4" height="90px" width="90px">
+	  <img src="Normal/5.png" onclick="change(5,5)" onmouseover="hover(5,5)" id="imgMain5" height="90px" width="90px">
+	  </div>
+	  <div class="right">
+	  <img src="Normal/6.png" onclick="change(6,6)" onmouseover="hover(6,6)" id="imgMain6" height="90px" width="90px">
+	  <img src="Normal/7.png" onclick="change(7,7)" onmouseover="hover(7,7)" id="imgMain7" height="90px" width="90px">
+	  <img src="Normal/8.png" onclick="change(8,8)" onmouseover="hover(8,8)" id="imgMain8" height="90px" width="90px">
+	  <img src="Disabled/9.png" id="imgMain9" height="90px" width="90px">
+	  <img src="Disabled/10.png" height="90px" width="90px">
+		
+		</div>
+	  </div>
+   </body>
+</html>   

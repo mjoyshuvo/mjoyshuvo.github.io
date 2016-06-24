@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Validation Check</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+	<center>
+		<form>
+			<fieldset>
+				
+				<legend>Validation</legend>
+				<h4>Email</h4>
+				<label>Enter your Email address : <input type="email" name="email1" id="email1" required ></label><br>
+				<label>Repeat your Email address: <input type="email" name="email1" id="email2" required onchange ="check()"></label>
+
+				<h4>Password</h4>
+				<label>Enter your Password : <input type="password" name="password1" id="password1" required ></label><br>
+				<label>Repeat your Password: <input type="password" name="password2" id="password2" required onchange ="check()"></label><br>
+
+				<input type="submit" name="submit" value="Submit" onclick = "return check();">
+				
+			</fieldset>
+		</form>
+	</center>
+</body>
+</html>

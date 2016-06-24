@@ -1,0 +1,9 @@
+.container {
+	display: inline-block;
+}
+.open{
+	display: block;
+}
+.close{
+	display: none;
+}
